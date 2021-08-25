@@ -5,20 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { SearchbarComponent } from './components/searchbar/searchbar.component';
-import { HomePipe } from './components/home.pipe';
-import { LoginPipe } from './pages/login.pipe';
-import { MoviePipe } from './pages/movie.pipe';
-import { WatchlistPipe } from './pages/watchlist.pipe';
+import { HomePageComponent } from './home-page/home-page.component';
+import { LoginPageComponent } from './login-page/login-page.component';
+import { MoviePageComponent } from './movie-page/movie-page.component';
+import { WatchlistPageComponent } from './watchlist-page/watchlist-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidebarComponent,
     SearchbarComponent,
-    HomePipe,
-    LoginPipe,
-    MoviePipe,
-    WatchlistPipe
+    HomePageComponent,
+    LoginPageComponent,
+    MoviePageComponent,
+    WatchlistPageComponent
   ],
   imports: [
     BrowserModule,
